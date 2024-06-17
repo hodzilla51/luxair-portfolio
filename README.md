@@ -18,7 +18,7 @@
 - **説明**: 車愛好家のためのSNSサイトです。SNSサイトに必要な「不特定多数からのユーザー認証」、「RestAPIによるステートレス化」、「サーバーの高速化・負担軽減」などの事項を満たすため、以下の技術スタックを利用しております。
 - **技術スタック**: React, Go, PostgreSQL, Apache Cassandra, Keycloak, AWS, Docker
 - **プロジェクトサンプル**:
-サンプルとして、プロジェクトの進行のため作成した設計書と、バックエンド関連のコードをご用意させていただきました。下記はルーティングのコードです。
+サンプルとして、プロジェクトの進行のため作成した設計書と、バックエンド関連のコードをご用意させていただきました。
 
 - [プロジェクト設計書集](./project2/docs/) - プロジェクトの全体的な設計書とドキュメント。
 - [インターフェース層ルーター](./project2/samples-backend/interface/routers/) - バックエンドのルーティングロジック。
@@ -46,6 +46,8 @@
 何か気になる点がございましたら、以下の方法でお気軽にご連絡ください：
 - **Email**: [lemontea.craft@gmail.com](mailto:lemontea.craft@gmail.com)
 - **Tell**: 090-1813-9275
+
+よろしくお願いいたします。
 
 # Lisence
 This project is licensed under the MIT License, see the LICENSE.txt file for details
