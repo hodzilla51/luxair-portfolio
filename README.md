@@ -29,3 +29,6 @@
 何か質問があれば、以下の方法でお気軽にご連絡ください：
 - **Email**: [lemontea.craft@gmail.com](mailto:lemontea.craft@gmail.com)
 - **Tell**: [090-1813-9275]
+
+# Lisence
+This project is licensed under the MIT License, see the LICENSE.txt file for details
