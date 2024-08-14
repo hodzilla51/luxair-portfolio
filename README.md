@@ -19,6 +19,7 @@
 - **技術スタック**: Next.js, Node.js, Vercel, Google Cloud Platform (何度も設計変更をしており、過去には他にもReact, Go, PostgreSQL, Apache Cassandra, Keycloak, AWS, Dockerなどを使用しておりました。）
 - **リンク**: https://sutututu.vercel.app
 - **広告戦略**: 過去にティッシュ配りによる広告を実施し、CVRは約3%を達成しました。
+- **補足**: 現在、Flutterを用いたアプリ版を開発中です。GPSを用いたラップタイムの自動測定機能を追加し、投稿画面におけるユーザーの入力項目を減らし、UXを向上させる努力を続けております。
 - **プロジェクトサンプル**:
 サンプルとして、プロジェクトの進行のため作成した設計書と、バックエンド関連のコードをご用意させていただきました。下記はルーティングのコードです。
 
@@ -32,7 +33,6 @@
 - [main.go](./project2/samples-backend/main.go) - goのエントリポイント。
 - [Dockerfile](./project2/samples-backend/Dockerfile) - 簡単なものですが、Dockerfile。
 
-- **補足**: 現在、Flutterを用いたアプリ版を開発中です。GPSを用いたラップタイムの自動測定機能を追加し、投稿画面におけるユーザーの入力項目を減らし、UXを向上させる努力を続けております。
 
 ## スキル
 ここでは、私が持っている技術的なスキルセットを挙げさせていただきます。
