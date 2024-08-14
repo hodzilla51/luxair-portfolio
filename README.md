@@ -64,5 +64,5 @@ Keycloakの設定を一から行ったことで、セキュリティに対する
 - **Email**: [lemontea.craft@gmail.com](mailto:lemontea.craft@gmail.com)
 - **Tell**: 090-1813-9275
 
-# Lisence
+# License
 This project is licensed under the MIT License, see the LICENSE.txt file for details
