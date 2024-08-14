@@ -40,8 +40,9 @@
 - フロントエンド開発: HTML, CSS, JavaScript, TypeScript ,React, Next.js(App Router)
 - バックエンド開発: Go, node.js, PHP
 - データベース: PostgreSQL, Cassandra
+- クラウド: AWS, GCP(Firebase)
 - 生成AI: GPT-4, DALL-E 3
-- その他: Docker, AWS, Keycloak, Git
+- その他: Docker, Keycloak, Git
 
 Keycloakの設定を一から行ったことで、セキュリティに対する基礎知識を習得いたしました。また、日常的にWSL、Dockerなどの仮想Linux環境に触れておりますので、Linuxに関する基本的な操作・構造の理解をしております。
 ちなみに、最もできると自認しているのはNext.js(TypeScript)です。
