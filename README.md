@@ -16,7 +16,9 @@ Next.js, Node.js, Vercel, Google Cloud Platform (何度も設計変更をして�
 ### 技術的なこだわり
  - GSAPライブラリを用いたアニメーション付きUI←視覚的に楽しいサイトを心掛け、軽量かつ高機能なGSAPライブラリを至る所で使用しております。
  - 用途毎のデータベースの変更によるFirebaseへの負荷軽減←例えば、検索補助機能はpublic内にJSONを配置し、データベースとしています。数KB程度なのでパフォーマンスに問題はありません。
- - ちょっと古いブラウザへの互換性←全ての機能がiPhoneXでも問題なく動作するように設計しております。例えば、Next.jsのuseSearchParams関数はiPhoneXでは動作しませんので、回避しています。
+ - ちょっと古いブラウザへの互換性←全ての機能がiPhoneXでも問題なく動作するように設計しております。例えば、Next.jsのuseSearchParams関数はiPhoneXのSafari上では動作しませんので、回避しています。
+ - Stripeを用いたサブスク←決済フレームワークStripeにて、月額500円の課金プランを実装しております。
+ - Jestを用いた自動テスト←まだまだ部分的な実装ですが、最終的にはJestやRTLを用いて自動テストを広く実装しようと考えています。
 ### **リンク**
 https://sutututu.net
 ### **広告戦略**
@@ -53,11 +55,11 @@ https://kagu.monster/articles/08018
 ここでは、私が持っている技術的なスキルセットを挙げさせていただきます。
 以下の技術に知見があります。
 - フロントエンド開発: HTML, CSS, JavaScript, TypeScript ,React, Next.js(App Router)
-- バックエンド開発: Go, node.js, PHP
+- バックエンド開発: Go, node.js, PHP(AtCoderで使用)
 - データベース: PostgreSQL, Cassandra
 - クラウド: AWS, GCP(Firebase)
 - 生成AI: GPT-4, o1preview, DALL-E 3
-- その他: Docker, Keycloak, Git, Vercel
+- その他: Docker, Keycloak, Git, Vercel, Stripe
 
 また、過去にWordPressサイトを企画から運営まで一人で行い、月間30,000pvまで伸ばした経験がございます。
 この際、SEO関連の知識も培っております。先述のSutututuに適用し、現在の主なサイト訪問者は検索流入からによるものとなっています。
