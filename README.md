@@ -18,7 +18,7 @@ Next.js, Node.js, Vercel, Google Cloud Platform (何度も設計変更をして�
  - 用途毎のデータベースの変更によるFirebaseへの負荷軽減←例えば、検索補助機能はpublic内にJSONを配置し、データベースとしています。数KB程度なのでパフォーマンスに問題はありません。
  - ちょっと古いブラウザへの互換性←全ての機能がiPhoneXでも問題なく動作するように設計しております。例えば、Next.jsのuseSearchParams関数はiPhoneXのSafari上では動作しませんので、回避しています。
  - Stripeを用いたサブスク←決済フレームワークStripeにて、月額500円の課金プランを実装しております。
- - Jestを用いた自動テスト←まだまだ部分的な実装ですが、最終的にはJestやRTLを用いて自動テストを広く実装しようと考えています。
+ - Jest、RTLを用いた自動テスト←少しずつ実装していっています。現在、リザルトページ内の検索フォームのみ「npm test」とすることで自動テストが可能になっております。
 ### **リンク**
 https://sutututu.net
 ### **広告戦略**
@@ -32,7 +32,7 @@ https://sutututu.net
 
 また、下記はバックエンド処理の始点と終点です。全体の流れをご覧いただくため、ご用意いたしました。お時間がありましたら、ご確認ください。
 
-- [インフラ層ミドルウェア](./project2/samples-backend/infrastructure/middleware/) - システムのミドルウェア構成。
+- [インフラ層ミドルウェア](./project2/samples-backend/infrastructure/middleware/) - バックエンドのミドルウェア構成。
 - [インターフェース層リポジトリ](./project2/samples-backend/interface/repositories/) - データアクセス層のリポジトリコード。
 - [main.go](./project2/samples-backend/main.go) - goのエントリポイント。
 - [Dockerfile](./project2/samples-backend/Dockerfile) - 簡単なものですが、Dockerfile。
